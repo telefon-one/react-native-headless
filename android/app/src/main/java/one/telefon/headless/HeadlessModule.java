@@ -12,6 +12,7 @@ import android.content.Intent;
 import android.util.Log;
 
 import android.os.Process;
+import android.os.PowerManager;
 
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -97,9 +98,10 @@ public class HeadlessModule extends ReactContextBaseJavaModule {
    /*
    * Additional step: Ability to answer incoming call without Lock Screen
    */
-    
+  
+    @ReactMethod
     public void noLock(Bundle savedInstanceState) {
-      super.onCreate(savedInstanceState);
+      //super.onCreate(savedInstanceState);
   
       Window w = getWindow();
       w.setFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED, WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
