@@ -1,4 +1,6 @@
+echo get version
 VERSION=`npm view react-native-headless version`
+echo v${VERSION}
 git add .
 git pull
 git commit -a -m "v${VERSION}"

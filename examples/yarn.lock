@@ -5025,7 +5025,7 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
 
 "react-native-headless@https://github.com/telefon-one/react-native-headless/":
   version "0.0.4"
-  resolved "https://github.com/telefon-one/react-native-headless/#8acd814655bdad0be0b5f6fc1db4d56025312e6e"
+  resolved "https://github.com/telefon-one/react-native-headless/#2886e2a8e5720ebb816727acfcbfd433eb5fd210"
 
 react-native@0.61.5:
   version "0.61.5"
