@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {NativeModules} from 'react-native';
 
 import {
   SafeAreaView,
@@ -28,7 +29,10 @@ export default class App extends Component {
 
     //ForegroundBackground.toBackground();
     //ForegroundBackground.toForeground();
-    Headless.startService();
+    //Headless.startService();
+    NativeModules.startService();
+  
+
   }
 
   render() {
