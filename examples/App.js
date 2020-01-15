@@ -26,13 +26,16 @@ export default class App extends Component {
   }
   async componentDidMount() {
     //let tForegroundBackground = new ForegroundBackground();
-
     //ForegroundBackground.toBackground();
     //ForegroundBackground.toForeground();
-    Headless.startService();
+    console.log("1");
+    this.tHeadless=new Headless();
+    console.log("2");
+    console.log(this.tHeadless.startService);
+    console.log("3");
+    this.tHeadless.startService();
+    console.log("4");
     //NativeModules.startService();
-  
-
 
   }
 
