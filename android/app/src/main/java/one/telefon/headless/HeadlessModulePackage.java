@@ -22,7 +22,7 @@ public class ForegroundBackgroundModulePackage implements ReactPackage {
             ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
 
-        modules.add(new ForegroundBackgroundModule(reactContext));
+        modules.add(new HeadlessModule(reactContext));
         return modules;
     }
 
