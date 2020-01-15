@@ -13,6 +13,8 @@ import android.util.Log;
 
 import android.os.Process;
 
+import android.os.HandlerThread;
+
 import com.facebook.react.bridge.*;
 import com.facebook.react.ReactActivity;
 

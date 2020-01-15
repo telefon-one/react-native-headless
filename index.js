@@ -1,5 +1,5 @@
-import Endpoint from './src/ReplaceDialer';
+import Headless from './src/Headless';
 
 module.exports = {
-    ReplaceDialer
+    Headless
 }

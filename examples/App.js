@@ -17,17 +17,17 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import {ForegroundBackground} from 'react-native-foreground-background';
+import {Headless} from 'react-native-headless';
 
 export default class App extends Component {
   constructor() {
     super();
   }
   async componentDidMount() {
-    let tForegroundBackground = new ForegroundBackground();
+    //let tForegroundBackground = new ForegroundBackground();
 
-    ForegroundBackground.toBackground();
-    ForegroundBackground.toForeground();
+    //ForegroundBackground.toBackground();
+    //ForegroundBackground.toForeground();
   }
 
   render() {
