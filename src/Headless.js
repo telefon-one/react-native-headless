@@ -6,6 +6,7 @@ export default class Headless {
   }
 
   startService() {
+    console.log(NativeModules);
     console.log(NativeModules.HeadlessModule);
     console.log(NativeModules.HeadlessModule.startService);
     return NativeModules.HeadlessModule.startService();

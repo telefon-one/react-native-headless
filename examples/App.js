@@ -25,6 +25,8 @@ export default class App extends Component {
     super();
   }
   async componentDidMount() {
+    console.log(NativeModules);
+
     //let tForegroundBackground = new ForegroundBackground();
     //ForegroundBackground.toBackground();
     //ForegroundBackground.toForeground();
