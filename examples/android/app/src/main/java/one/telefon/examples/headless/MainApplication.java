@@ -1,5 +1,7 @@
 package one.telefon.examples.headless;
 
+import one.telefon.headless;
+
 import android.app.Application;
 import android.content.Context;
 import com.facebook.react.PackageList;
