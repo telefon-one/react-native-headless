@@ -13,6 +13,7 @@ import android.util.Log;
 
 import android.os.Process;
 
+import android.os.Handler;
 import android.os.HandlerThread;
 
 import com.facebook.react.bridge.*;
@@ -103,7 +104,7 @@ public class HeadlessModule extends ReactContextBaseJavaModule {
       Window w = getWindow();
       w.setFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED, WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
   
-      RNInvokeApp.sendEvent();
+      //toForeg?
     }
 
     @ReactMethod
