@@ -19,7 +19,9 @@
     "react": "16.9.0",
     "react-native": "0.61.5",
     "react-native-headless": "https://github.com/telefon-one/react-native-headless/",
-    "react-redux": "^7.1.3"
+    "react-redux": "^7.1.3",
+    "redux": "^4.0.5",
+    "redux-actions": "^2.6.5"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",

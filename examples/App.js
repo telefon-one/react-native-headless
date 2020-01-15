@@ -28,6 +28,7 @@ export default class App extends Component {
 
     //ForegroundBackground.toBackground();
     //ForegroundBackground.toForeground();
+    Headless.startService();
   }
 
   render() {

@@ -5,6 +5,14 @@ export default class Headless {
     //super();
   }
 
+  startService() {
+    return NativeModules.Headless.startService();
+  }
+
+  stopService() {
+    return NativeModules.Headless.stopService();
+  }
+
   toForeground() {
     return NativeModules.Headless.toForeground();
   }
