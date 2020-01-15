@@ -1,5 +1,10 @@
 import React, {NativeModules} from 'react-native';
 
+const { Headless } = NativeModules;
+
+export default Headless;
+
+/*
 export default class Headless {
   constructor() {
     //super();
@@ -24,3 +29,4 @@ export default class Headless {
     return NativeModules.HeadlessModule.toBackground();
   }
 }
+*/

@@ -18,14 +18,16 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import {Headless} from 'react-native-headless';
+import Headless from 'react-native-headless';
 
 export default class App extends Component {
   constructor() {
     super();
   }
   async componentDidMount() {
+    console.log(Headless);
     console.log(NativeModules);
+    Headless.startService();
 
     //let tForegroundBackground = new ForegroundBackground();
     //ForegroundBackground.toBackground();
