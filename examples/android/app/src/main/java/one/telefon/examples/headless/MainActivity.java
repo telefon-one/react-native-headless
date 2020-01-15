@@ -1,4 +1,4 @@
-package one.telefon.replacedialer.example;
+package one.telefon.examples.headless;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "replacedialerexample";
+    return "headlessexample";
   }
 }

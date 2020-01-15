@@ -5023,9 +5023,9 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
-"react-native-foreground-background@https://github.com/telefon-one/react-native-foreground-background/":
-  version "0.0.2"
-  resolved "https://github.com/telefon-one/react-native-foreground-background/#13cb779862365e63de1b1a875abf52577e6655de"
+"react-native-headless@https://github.com/telefon-one/react-native-headless/":
+  version "0.0.3"
+  resolved "https://github.com/telefon-one/react-native-headless/#625940574b5fa816c153dbee27f5fb88362f6cfa"
 
 react-native@0.61.5:
   version "0.61.5"
