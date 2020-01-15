@@ -29,9 +29,10 @@ export default class App extends Component {
 
     //ForegroundBackground.toBackground();
     //ForegroundBackground.toForeground();
-    //Headless.startService();
-    NativeModules.startService();
+    Headless.startService();
+    //NativeModules.startService();
   
+
 
   }
 

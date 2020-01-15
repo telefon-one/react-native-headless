@@ -6,18 +6,18 @@ export default class Headless {
   }
 
   startService() {
-    return NativeModules.Headless.startService();
+    return NativeModules.HeadlessModule.startService();
   }
 
   stopService() {
-    return NativeModules.Headless.stopService();
+    return NativeModules.HeadlessModule.stopService();
   }
 
   toForeground() {
-    return NativeModules.Headless.toForeground();
+    return NativeModules.HeadlessModule.toForeground();
   }
 
   toBackground() {
-    return NativeModules.Headless.toBackground();
+    return NativeModules.HeadlessModule.toBackground();
   }
 }

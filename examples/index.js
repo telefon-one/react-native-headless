@@ -19,5 +19,5 @@ const RNRedux = () => (
 
 
 AppRegistry.registerHeadlessTask('HeadlessHandler', () => require('./src/event-handler.js').bind(null, store));
-//AppRegistry.registerComponent(appName, () => RNRedux);
-AppRegistry.registerComponent(appName, () => App);
+AppRegistry.registerComponent(appName, () => RNRedux);
+//AppRegistry.registerComponent(appName, () => App);
