@@ -14,7 +14,6 @@ import android.util.Log;
 import android.os.Process;
 import android.os.PowerManager;
 
-import android.content.Context.POWER_SERVICE;
 
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -85,11 +84,13 @@ public class HeadlessModule extends ReactContextBaseJavaModule {
             @Override
             public void run() {
                 // Brighten screen at least 10 seconds
+                /*
                 mPowerManager = (PowerManager) mContext.getSystemService(POWER_SERVICE);
 
                 PowerManager.WakeLock wl = mPowerManager.newWakeLock(PowerManager.ACQUIRE_CAUSES_WAKEUP
                         | PowerManager.ON_AFTER_RELEASE | PowerManager.FULL_WAKE_LOCK, "incoming_call");
                 wl.acquire(10000);
+                */
 
             }
         });
