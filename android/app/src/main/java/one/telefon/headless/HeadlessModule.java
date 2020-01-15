@@ -24,9 +24,9 @@ import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
+import com.facebook.react.bridge.ReactContextBaseJavaModule;
+import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.uimanager.ViewManager;
-
-import android.os.PowerManager;
 
 
 
@@ -119,6 +119,16 @@ public class HeadlessModule extends ReactContextBaseJavaModule {
 
     private void job(Runnable job) {
         mHandler.post(job);
+    }
+
+    @ReactMethod
+    public void startService() {
+        this.reactContext.startService(new Intent(this.reactContext, HeadlessService.class));
+    }
+
+    @ReactMethod
+    public void stopService() {
+        this.reactContext.stopService(new Intent(this.reactContext, HeadlessService.class));
     }
 }
 
