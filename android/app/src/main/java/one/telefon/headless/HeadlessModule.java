@@ -14,6 +14,8 @@ import android.util.Log;
 import android.os.Process;
 import android.os.PowerManager;
 
+import android.content.Context.POWER_SERVICE;
+
 import android.os.Handler;
 import android.os.HandlerThread;
 
@@ -103,8 +105,8 @@ public class HeadlessModule extends ReactContextBaseJavaModule {
     public void noLock(Bundle savedInstanceState) {
       //super.onCreate(savedInstanceState);
   
-      Window w = getWindow();
-      w.setFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED, WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
+      //Window w = getWindow();
+      //w.setFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED, WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
   
       //toForeg?
     }
