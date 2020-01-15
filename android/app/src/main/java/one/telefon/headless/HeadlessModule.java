@@ -1,4 +1,4 @@
-package one.telefon.foregroundbackground;
+package one.telefon.headless;
 
 import android.app.Activity;
 import android.app.Service;
@@ -28,12 +28,12 @@ import android.os.PowerManager;
 public class ForegroundBackgroundModule extends ReactContextBaseJavaModule {
     ReactApplicationContext mContext;
 
-    private static String LOG = "telefon.one.foregroundbackground.ForegroundBackgroundModule";
+    private static String LOG = "telefon.one.headless.HeadlessModule";
     private PowerManager mPowerManager;
     private HandlerThread mWorkerThread;
     private Handler mHandler;
 
-    public ForegroundBackgroundModule(ReactApplicationContext context) {
+    public HeadlessModule(ReactApplicationContext context) {
         super(context);
         mContext=context;
 
@@ -45,7 +45,7 @@ public class ForegroundBackgroundModule extends ReactContextBaseJavaModule {
     
     @Override
     public String getName() {
-        return "ForegroundBackgroundModule";
+        return "HeadlessModule";
     }
 
     @ReactMethod

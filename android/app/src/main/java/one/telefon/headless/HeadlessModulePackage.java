@@ -1,4 +1,4 @@
-package one.telefon.foregroundbackground;
+package one.telefon.headless;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;
