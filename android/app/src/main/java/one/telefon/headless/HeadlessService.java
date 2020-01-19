@@ -24,7 +24,7 @@ public class HeadlessService extends Service {
         @Override
         public void run() {
             Context context = getApplicationContext();
-            Intent myIntent = new Intent(context, HeartbeatEventService.class);
+            Intent myIntent = new Intent(context, HeadlessEventService.class);
             context.startService(myIntent);
             HeadlessJsTaskService.acquireWakeLockNow(context);
             handler.postDelayed(this, 2000);
