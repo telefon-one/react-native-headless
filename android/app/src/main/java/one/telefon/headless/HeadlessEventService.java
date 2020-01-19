@@ -8,7 +8,7 @@ import com.facebook.react.HeadlessJsTaskService;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.jstasks.HeadlessJsTaskConfig;
 
-public class HeartbeatEventService extends HeadlessJsTaskService {
+public class HeadlessEventService extends HeadlessJsTaskService {
     @Nullable
     protected HeadlessJsTaskConfig getTaskConfig(Intent intent) {
         Bundle extras = intent.getExtras();

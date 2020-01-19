@@ -14,7 +14,7 @@ import android.os.Build;
 
 import com.facebook.react.HeadlessJsTaskService;
 
-public class HeartbeartService extends Service {
+public class HeadlessService extends Service {
 
     private static final int SERVICE_NOTIFICATION_ID = 123456;
     private static final String CHANNEL_ID = "HEADLESS";
