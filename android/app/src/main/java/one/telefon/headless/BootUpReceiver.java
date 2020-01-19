@@ -10,5 +10,4 @@ public class BootUpReceiver extends BroadcastReceiver {
      public void onReceive(Context context, Intent intent) {
       context.startService(new Intent(context, HeadlessService.class));
      }
-    }
 }
