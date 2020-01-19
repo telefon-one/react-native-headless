@@ -2377,6 +2377,11 @@ eventemitter3@^3.0.0:
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-3.1.2.tgz#2d3d48f9c346698fce83a85d7d664e98535df6e7"
   integrity sha512-tvtQIeLVHjDkJYnzf2dgVMxfuSGJeM/7UCG17TT4EumTfNtF+0nebF/4zWOIkCreAbtNqhGEboB6BWrwqNaw4Q==
 
+events@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/events/-/events-1.1.0.tgz#4b389fc200f910742ebff3abb2efe33690f45429"
+  integrity sha1-SzifwgD5EHQuv/Orsu/jNpD0VCk=
+
 exec-sh@^0.3.2:
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/exec-sh/-/exec-sh-0.3.4.tgz#3a018ceb526cc6f6df2bb504b2bfe8e3a4934ec5"
@@ -5044,7 +5049,14 @@ react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
 
 "react-native-headless@https://github.com/telefon-one/react-native-headless/":
   version "0.0.4"
-  resolved "https://github.com/telefon-one/react-native-headless/#f6a68d9152b540d61d3c31e67128df18e613dc9c"
+  resolved "https://github.com/telefon-one/react-native-headless/#5a6fcfa1807b1d47b2c84994195ad5fa7fa55f6b"
+
+react-native-tele@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/react-native-tele/-/react-native-tele-0.0.7.tgz#730d6bdad908d41084426f205af3de313bb6c817"
+  integrity sha512-OG+Ta5SJAxoiqeWG6Dn078w7wJDcQY9a5A+zjuANBVv5TZ76AFlYj2VM2+Q7fFrpcbXcMW/UxKEu1vFpbrQQkQ==
+  dependencies:
+    events "1.1.0"
 
 react-native@0.61.5:
   version "0.61.5"

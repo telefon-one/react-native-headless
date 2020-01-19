@@ -25,8 +25,11 @@ export default class App extends Component {
     super();
   }
   async componentDidMount() {
-    console.log(Headless);
-    console.log(NativeModules);
+    
+    console.log("NativeModules", NativeModules);
+    console.log("NativeModules.HeadlessModule", NativeModules.HeadlessModule );
+
+    
     Headless.startService();
 
     //let tForegroundBackground = new ForegroundBackground();

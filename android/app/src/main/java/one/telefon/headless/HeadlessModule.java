@@ -1,13 +1,16 @@
 package one.telefon.headless;
 
+import android.content.Context;
 import android.app.Activity;
+import com.facebook.react.bridge.*;
+
 import android.app.Service;
 
 import android.view.Window;
 import android.view.WindowManager;
 import android.os.Bundle;
 
-import android.content.Context;
+
 import android.content.Intent;
 import android.util.Log;
 
@@ -18,7 +21,7 @@ import android.os.PowerManager;
 import android.os.Handler;
 import android.os.HandlerThread;
 
-import com.facebook.react.bridge.*;
+
 import com.facebook.react.ReactActivity;
 
 import com.facebook.react.ReactPackage;
